@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<main>
+		<header>
+			<input type="file" name="image" style="float:left;">
+			<h1>CV Form</h1>
+		</header>
+		<section>
+			<form>
+				<fieldset>
+					<legend>Şəxsi Məlumatlar</legend>
+					<div class="left">
+						<label>Adı:</label>
+						<input type="text" name="ad" value="" placeholder="ad">
+						
+						<label>Soyadı:</label>
+						<input type="text" name="soyad" value="" placeholder="soyad">
+						
+						<label>Ata adı:</label>
+						<input type="text" name="ata_adi" value="" placeholder="ata adı">
+
+						<label>Doğulduğu yer:</label>
+						<input type="text" name="yer" value="" placeholder="Şəhər">
+
+						<label>Yaşadığı ünvan:</label>
+						<input type="text" name="unvan" value="" placeholder="Şəhər">
+					</div>
+					<div class="right">
+						<label>Doğum tarixi:</label>
+						<input type="date" name="tarix" value="">
+						
+						<label>Milliyəti:</label>
+						<select name="milliyeti">
+							<option>Azəri</option>
+							<option>Türk</option>
+							<option>Rus</option>
+							<option>İngilis</option>
+							<option>Digər</option>
+
+						</select>
+						
+						<br/>
+						<br/>
+						<label>Ailə vəziyyəti:</label>
+						<input type="checkbox" name="subay" checked> Subay
+						&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="evli" > Evli
+						<br/>
+
+
+						<label>Telefon nömrəsi:</label>
+						<input type="tel" name="nomre" placeholder="nömrə" placeholder="Nömrə">
+
+						<label>Email:</label>
+						<input type="email" name="email" placeholder="Email" >
+						
+
+					</div>						
+				</fieldset>
+				<br/>
+				<br/>
+				<fieldset>
+					<legend> Ali Təhsil</legend>
+						<div class="left">
+							<label>Universitet:</label>
+							<input type="text" name="uni" value="" placeholder="Universitetin adı">
+							
+							<label>Fakültə:</label>
+							<input type="text" name="fakulte" value="" placeholder="fakultə">
+
+							<label>İxtisas:</label>
+							<input type="text" name="ixtisas" value="" placeholder="ixtisas">
+						</div>
+						<div class="right">
+							<label>Daxil olma tarixi:</label>
+							<input type="date" name="yer" value="" >
+
+							<label>Topladığı Bal:</label>
+							<input type="text" name="bal" value="" placeholder="Giriş Balı">
+
+							<label>Kurs:</label>
+							<input type="number" name="kurs" value="1" min="1" max="5">
+						</div>
+
+							
+				</fieldset>
+				<br/>
+				<br/>
+				<fieldset style="padding-bottom:60px;">
+					<legend>Xarici dil bilikləri</legend>
+						<div class="lang">
+							<label >Azərbaycan dili </label>
+							<select name="dil">
+								<option>Əla</option>
+								<option>Orta</option>
+								<option>Kafi</option>
+							</select>
+						</div>
+						<div class="lang">
+						    <label>İngilis dili </label>
+							<select name="dil">
+								<option>Əla</option>
+								<option>Orta</option>
+								<option>Kafi</option>
+							</select>
+						</div>
+						<div class="lang">
+							<label>Rus dili dili </label>
+							<select name="dil">
+								<option>Əla</option>
+								<option>Orta</option>
+								<option>Kafi</option>
+							</select>
+						</div>
+				
+				</fieldset>
+				<br/>
+				<br/>
+			<fieldset>
+			        <legend>Digər biliklər və bacarıqlarınız</legend>
+					<textarea name="qeyd" rows="10" cols="80" placeholder="Qeyd ediniz..."></textarea>
+				    <input type="submit" name="submit" id="submit">
+
+
+				</fieldset>
+
+
+			</form>
+		</section>
+		<footer>
+			<p>Copyright &copy; 2016 &nbsp; <br/>
+        Hazırladı: Sara Əsgərova</p>
+
+		</footer>
+	</main>
+</body>
+</html>
